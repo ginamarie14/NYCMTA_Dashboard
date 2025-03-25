@@ -1,4 +1,4 @@
-# NYCMTA_Dashboard
+# NYCMTA Dashboard
 NYC MTA Dashboard: What does access to public transportation look like across the 5 boroughs?
 
 This interactive dashboard gives an image of access to public transit across New York City's five boroughs. The inspiration behind this is actually the reason I joined MADS; as a graduate in geography specializing in urban development and regional planning, I have long looked for ways to better urban spaces and make them more accessible for the people that live in them. A big driver in urban accessibility, or accessibility anywhere, is the means of transportation available to the public. 
