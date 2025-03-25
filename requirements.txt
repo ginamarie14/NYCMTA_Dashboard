@@ -1,0 +1,8 @@
+pandas
+geopandas
+numpy
+matplotlib
+plotly
+dash
+jupyterdash
+requests
