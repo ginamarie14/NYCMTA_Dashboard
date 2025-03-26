@@ -1,62 +1,31 @@
-# NYCMTA Dashboard
-NYC MTA Dashboard: What does access to public transportation look like across the 5 boroughs?
+# NYC MTA Accessibility Dashboard
 
-This interactive dashboard gives an image of access to public transit across New York City's five boroughs. The inspiration behind this is actually the reason I joined MADS; as a graduate in geography specializing in urban development and regional planning, I have long looked for ways to better urban spaces and make them more accessible for the people that live in them. A big driver in urban accessibility, or accessibility anywhere, is the means of transportation available to the public. 
-
-Paris, France is now known as the 15-minute city, because you can access schools, pharmacies, banks, public transportation, hospitals, supermarkets, and restaurants within 15 minutes of any point. This has been proven to improve quality of life across multiple aspects, including more resilient local economies, reduced traffic, and access to educational and cultural resources.
-
-While New York City is more than 10x larger than Paris, the possibility exists to imagine a 30-minute city in the same vain, and it is my belief that access to public transportation is the first step in achieving such a feat. For this reason, I believe that the first step to improving urban planning in New York would be to evaulate the current state of public transportation across the boroughs.
-
-This project uses Plotly and Dash.
+An interactive dashboard analyzing subway accessibility across New York City's five boroughs.
 
 ## Features
 
-- **Interactive choropleth map** showing subway station density by neighborhood
-- **Comparative bar chart** of stations across top neighborhoods
-- **Time-series line chart** displaying service frequency by hour of day
+- **Interactive choropleth map** showing subway station density by borough
+- **Comparative bar chart** of stations across NYC boroughs
+- **Time-series line chart** displaying service frequency throughout the day
 - **Scatter plot** exploring the relationship between population density and transit access
-- **Interactive filters** to explore different boroughs and station count thresholds
+- **Interactive borough selection** to filter visualizations by multiple boroughs
 
-## Setup Instructions
+## Data Sources
 
-### Prerequisites
+- MTA GTFS data (subway station locations)
+- NYC Borough boundaries
+- Population statistics from the 2020 Census
 
-- Python 3.7 or higher
-- Jupyter Notebook or JupyterLab
+## How to Run
 
-### Installation
+1. Clone this repository
+2. Install the required packages: `pip install -r requirements.txt`
+3. Run the Jupyter notebook: `jupyter notebook nyc_mta_dashboard.ipynb`
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/ginamarie214/NYCMTA_Dashboard.git
-   cd NYCMTA_Dashboard
-   ```
-
-2. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Launch Jupyter Notebook:
-   ```
-   jupyter notebook
-   ```
-
-4. Open the `nyc_mta_dashboard.ipynb` notebook and run all cells
-
-### Data Sources
-
-This project uses the following public data sources:
-
-- MTA GTFS data (subway routes, stops, and schedules)
-- NYC Neighborhood Tabulation Areas (NTAs)
-- NYC Population data by neighborhood
-
-The notebook automatically downloads these datasets when run.
-
-## Dashboard Usage
-
-- Use the **Borough dropdown** to filter to a specific borough or view all boroughs
-- Adjust the **Station Count slider** to filter neighborhoods by their number of subway stations
-- Hover over map areas to see detailed information about each neighborhood
-- Click on legend items to filter visualizations by borough
+## Screenshots
+![Image 3-25-25 at 11 08 PM](https://github.com/user-attachments/assets/5206e6be-a665-4e93-9ba5-7a95dd485335)
+![Image 3-25-25 at 11 09 PM](https://github.com/user-attachments/assets/331e26d2-bfee-472f-a381-3238c6bbe1d7)
+![Image 3-25-25 at 11 10 PM](https://github.com/user-attachments/assets/8d2913dd-8206-422f-baa9-55332ed993cd)
+![Image 3-25-25 at 11 10 PM (1)](https://github.com/user-attachments/assets/5a560bdb-a9dd-4b17-9073-62dbae4d95c7)
+![Image 3-25-25 at 11 48 PM](https://github.com/user-attachments/assets/0f9b18ae-6161-4d1f-b201-f0e40edcbb44)
+![Image 3-25-25 at 11 49 PM](https://github.com/user-attachments/assets/fa7bdb92-efa0-46b1-ad00-94724e175efd)
