@@ -9,6 +9,7 @@ An interactive dashboard analyzing subway accessibility across New York City's f
 - **Time-series line chart** displaying service frequency throughout the day
 - **Scatter plot** exploring the relationship between population density and transit access
 - **Interactive borough selection** to filter visualizations by multiple boroughs
+- **Hover over the  chart elements** to get stats on each borough
 
 ## Data Sources
 
@@ -29,3 +30,6 @@ An interactive dashboard analyzing subway accessibility across New York City's f
 ![Image 3-25-25 at 11 10 PM (1)](https://github.com/user-attachments/assets/5a560bdb-a9dd-4b17-9073-62dbae4d95c7)
 ![Image 3-25-25 at 11 48 PM](https://github.com/user-attachments/assets/0f9b18ae-6161-4d1f-b201-f0e40edcbb44)
 ![Image 3-25-25 at 11 49 PM](https://github.com/user-attachments/assets/fa7bdb92-efa0-46b1-ad00-94724e175efd)
+<img width="821" alt="Screenshot 2025-03-25 at 11 50 58 PM" src="https://github.com/user-attachments/assets/0163e1dc-8dda-42d8-af89-c4a28284be8f" />
+![Image 3-25-25 at 11 52 PM](https://github.com/user-attachments/assets/82b20cf9-dbb7-4b96-a648-883cfac5487f)
+
